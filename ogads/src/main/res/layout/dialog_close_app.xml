@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layoutDirection="rtl">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp" app:cardElevation="15dp">
+
+
+        <RelativeLayout
+            android:background="@color/cardview_shadow_end_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/mImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorWhite"
+                android:padding="5dp"
+                android:text="There is erorr "
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+            <TextView
+                android:background="@color/colorWhite"
+                android:textColor="@color/blacks"
+                android:gravity="center"
+                android:id="@+id/mText"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="you can try agine   or finsh "
+                android:layout_below="@+id/mImg"/>
+            <LinearLayout android:orientation="horizontal"
+
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp" android:layout_below="@+id/mText">
+                <Button
+
+                    android:textSize="14sp"
+                    android:textColor="#fff"
+                    android:id="@+id/close"
+                    android:background="@color/sub_text_color"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ReTry"
+                    android:layout_weight="1"/>
+                <View
+                    android:layout_gravity="center"
+                    android:background="@color/colorWhite"
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"/>
+                <Button
+                    android:textSize="14sp"
+                    android:textColor="#fff"
+                    android:id="@+id/mShare"
+                    android:background="@color/sub_text_color"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="finsh"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

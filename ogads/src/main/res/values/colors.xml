@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorAccent">#ec3e3d</color>
+    <color name="colorGray">#4e5157</color>
+    <color name="colorOrange">#ffc107</color>
+    <color name="colorPrimary">#0e1833</color>
+    <color name="colorTwo">#080c29</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPrimaryDark">#080c29</color>
+    <color name="text_black">#e6616161</color>
+    <color name="trans_text_black">#402c56</color>
+    <color name="sub_text_color">#8d6fae</color>
+
+    <color name="jasem1">#A6A7F0</color>
+    <color name="blacks">#0f1050</color>
+    <color name="green_light">#4CAF50</color>
+    <color name="green">#4CAF50</color>
+</resources>
